@@ -222,21 +222,26 @@ header {
     justify-content: center;
 }
 
+/* Project Card with Expandable Preview */
 .project-card {
     background: #1f1f1f;
     padding: 20px;
     transform: scale(1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, max-height 0.3s ease;
     width: 300px;
     border-radius: 8px;
     text-align: left;
     color: #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    max-height: 400px; /* Default height for preview */
+    overflow: hidden;
 }
 
 .project-card:hover {
     transform: scale(1.05);
     background: #292929;
+    max-height: 400px; /* Expanded height */
 }
 
 .project-card h2 {
@@ -247,6 +252,26 @@ header {
 .project-card p {
     font-size: 1rem;
     line-height: 1.5;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-card .details {
+    font-size: 0.9rem;
+    color: #bbb;
+    line-height: 1.4;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    
+}
+
+.project-card:hover .details {
+    opacity: 1;
 }
 
 /* Contact Section */
