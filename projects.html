@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ahmad Yousif Zuhair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/particles.min.js" defer></script>
+    <script src="js/bg-animation.js" defer></script>
+</head>
+<body>
+    <div id="animated-bg"></div>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="projects.html" class="active"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="projects-section">
+        <h1>Projects</h1>
+        <div class="project-grid">
+            <div class="project-card" data-aos="fade-up">
+                <h2>Shopping Application</h2>
+                <p>
+                    Developed a dynamic shopping cart system with secure payment integration, user-friendly interfaces, 
+                    and account management features.
+                </p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <h2>Inventory Management System</h2>
+                <p>
+                    Designed a real-time tracker with a secure login system and validation for seamless operation.
+                </p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                <h2>AI Story Generator</h2>
+                <p>
+                    Built an AI-powered tool for dynamic storytelling with generated imagery tailored to story contents.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        AOS.init({ duration: 1200 });
+    </script>
+</body>
+</html>

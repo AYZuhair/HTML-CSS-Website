@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ahmad Yousif Zuhair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/particles.min.js" defer></script> <!-- Added missing particles.min.js -->
+    <script src="js/bg-animation.js" defer></script>
+</head>
+<body>
+    <div id="animated-bg"></div> <!-- Background animation container -->
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="projects.html"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="about-section">
+        <section class="intro" data-aos="fade-up">
+            <h1>About Me</h1>
+            <p>
+                I’m Ahmad Yousif Zuhair, a Junior AI Ops Engineer with a passion for innovation, technology, and solving complex problems. 
+                With a strong foundation in AI-powered solutions, hardware troubleshooting, and programming, I strive to deliver impactful results in engineering and technology.
+            </p>
+        </section>
+
+        <section class="skills" data-aos="fade-up" data-aos-delay="200">
+            <h2>Technical Skills</h2>
+            <div class="skill-list">
+                <div class="skill">
+                    <h3>Programming</h3>
+                    <p>Python, Angular, React JS, TypeScript, C, CSS, SCSS, HTML, C++, Java, MATLAB</p>
+                </div>
+                <div class="skill">
+                    <h3>Software</h3>
+                    <p>SolidWorks, Adobe XD, Multisim, LabView</p>
+                </div>
+                <div class="skill">
+                    <h3>Hardware</h3>
+                    <p>Circuit Design, Troubleshooting, Setup & Maintenance</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="soft-skills" data-aos="fade-up" data-aos-delay="400">
+            <h2>Soft Skills</h2>
+            <p>Team Collaboration, Project Management, User Experience Design, Problem Solving</p>
+        </section>
+
+        <section class="education" data-aos="fade-up" data-aos-delay="600">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor's in Computer Engineering</strong> - De Montfort University (United Kingdom)</li>
+                <li><strong>High School Diploma</strong> - Madinat Al Oloum (Saudi Arabia)</li>
+                <li><strong>IELTS Academic UKVI</strong> - Score: 7</li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        AOS.init({ duration: 1200 });
+    </script>
+</body>
+</html>

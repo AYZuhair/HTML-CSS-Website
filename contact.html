@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Ahmad Yousif Zuhair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/particles.min.js" defer></script>
+    <script src="js/bg-animation.js" defer></script>
+</head>
+<body>
+    <div id="animated-bg"></div>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="projects.html"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-section">
+        <h1 data-aos="fade-up">Contact Me</h1>
+        <p data-aos="fade-up" data-aos-delay="200">If you'd like to work together or have any inquiries, feel free to reach out!</p>
+        <div class="contact-details" data-aos="fade-up" data-aos-delay="400">
+            <p><strong>Email:</strong> <a href="mailto:ahmadyalzuhair@gmail.com">ahmadyalzuhair@gmail.com</a></p>
+            <!-- <p><strong>Phone:</strong> +60 186633804</p> -->
+            <p><strong>Phone:</strong> <a href="+60 186633804" target="_blank">+60 186633804</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/AYZuhair" target="_blank">github.com/AYZuhair</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/a-zuhair" target="_blank">linkedin.com/in/a-zuhair</a></p>
+        </div>
+        <form action="#" method="POST" class="contact-form" data-aos="fade-up" data-aos-delay="600">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <script>
+        AOS.init({ duration: 1200 });
+    </script>
+</body>
+</html>
