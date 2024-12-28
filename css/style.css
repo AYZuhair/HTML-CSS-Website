@@ -343,5 +343,27 @@ header {
     background: #ff4336;
 }
 
+.download-cv {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(90deg, #ff6f61, #ff4336);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.download-cv:hover {
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #ff4336, #ff6f61);
+}
+
 
 
