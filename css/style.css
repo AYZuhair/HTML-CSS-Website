@@ -365,5 +365,17 @@ header {
     background: linear-gradient(90deg, #ff4336, #ff6f61);
 }
 
+@media screen and (max-width: 768px) {
+    .download-cv {
+        top: 70px; /* Position it lower to avoid overlapping */
+        right: 10px; /* Add slight spacing from the edge */
+        padding: 8px 15px; /* Reduce padding for smaller size */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    .nav-links {
+        padding-top: 15px; /* Adjust spacing for navigation links */
+    }
+}
 
 
